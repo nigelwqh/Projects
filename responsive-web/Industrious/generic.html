@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./generic.css">
+  <title>Generic - Industrious</title>
+</head>
+
+<body>
+  <div class="grid">
+    <nav class="navbar">
+      <a class="navbar__link" href="./index.html">Industrious</a>
+      <a class="navbar__link" href="#" onclick="openNav()">
+        <i class="fas fa-bars"> Menu</i>
+      </a>
+      <div id="navbar__menu">
+        <a class="navbar__menu--button navbar__link" href="#" onclick="closeNav()">&times;</a>
+        <a class="navbar__menu--link navbar__link" href="./index.html">Home</a>
+        <hr />
+        <a class="navbar__menu--link navbar__link" href="#">Generic</a>
+        <hr />
+        <a class="navbar__menu--link navbar__link" href="./elements.html">Elements</a>
+        <hr />
+      </div>
+    </nav>
+    <section class="banner">
+      <h1>Generic Page</h1>
+    </section>
+    <section class="generic-content">
+      <h1>Feugiat consequat</h1>
+      <p>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Magna et
+        cursus lorem faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
+        faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod tempus. Vestibulum
+        ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan
+        eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante
+        ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
+        faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida lorem ipsum dolor sit amet dolor
+        feugiat consequat.</p>
+      <p>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Magna et
+        cursus lorem faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
+        faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod tempus. Vestibulum
+        ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan
+        eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante
+        ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
+        faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida lorem ipsum dolor sit amet dolor
+        feugiat consequat.</p>
+      <hr />
+      <h4>Magna odio tempus commodo</h4>
+      <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo
+        ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget.
+        Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac
+        interdum morbi accumsan vis mi accumsan ac praesent.</p>
+      <p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
+        adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus
+        euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in
+        faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem
+        ipsum dolor sit amet nullam.</p>
+    </section>
+    <section class="contact">
+      <div class="contact__info">
+        <h3>Accumsan montes viverra</h3>
+        <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non
+          faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius
+          montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum.
+          Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet
+          praese nt. Nunc lacinia ante nunc ac gravida.</p>
+      </div>
+      <div class="contact__faq">
+        <h3>Sem turpis amet semper</h3>
+        <a class="contact__links" href="#">Dolor pulvinar sed etiam.</a>
+        <hr />
+        <a class="contact__links" href="#">Etiam vel lorem sed amet.</a>
+        <hr />
+        <a class="contact__links" href="#">Felis enim feugiat viverra.</a>
+        <hr />
+        <a class="contact__links" href="#">Dolor pulvinar magna etiam.</a>
+      </div>
+      <div class="contact__socialmedia">
+        <h3>Magna sed ipsum</h3>
+        <a class="contact__links" href="#"><i class="fab fa-twitter"></i>Twitter</a>
+        <a class="contact__links" href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+        <a class="contact__links" href="#"><i class="fab fa-instagram"></i>Instagram</a>
+        <a class="contact__links" href="#"><i class="fab fa-github"></i>Github</a>
+      </div>
+    </section>
+    <section class="footer">&copy; Untitled. Photos <a class="footer__links" href="https://unsplash.com/">Unsplash</a>.
+      Video <a class="footer__links" href="https://coverr.co/">Coverr</a>.</section>
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("navbar__menu").style.width = '250px';
+    }
+
+    function closeNav() {
+      document.getElementById("navbar__menu").style.width = '0';
+    }
+  </script>
+</body>
+
+</html>
