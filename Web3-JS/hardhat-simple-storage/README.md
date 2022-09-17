@@ -1,13 +1,7 @@
-# Sample Hardhat Project
+This project includes using the Hardhat framework to create a simple storage contract that is able to connect to both local hardhat blockchain as well as ethereum testnets (Goerli).
+The contract has features that allows users to:
+1. Store a favorite number
+2. Retrieve a favorite number
+3. Store an array of person and their favorite number
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Some basic tests were also included to ensure coverage of our contract and that the functionalities work as intended.
