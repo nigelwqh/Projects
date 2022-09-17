@@ -1,4 +1,4 @@
-This project includes using the Hardhat framework to create a simple storage contract that is able to connect to both local hardhat blockchain as well as ethereum testnets (Goerli).
+# This project includes using the Hardhat framework to create a simple storage contract that is able to connect to both local hardhat blockchain as well as ethereum testnets (Goerli).
 The contract has features that allows users to:
 1. Store a favorite number
 2. Retrieve a favorite number
