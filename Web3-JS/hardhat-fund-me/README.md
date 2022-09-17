@@ -1,4 +1,4 @@
-# This project includes creating a fund me smart contract that is able to connect to both local hardhat blockchain as well as ethereum testnets (Goerli).
+# This project includes using the Hardhat framework to create a fund me smart contract that is able to connect to both local hardhat blockchain as well as ethereum testnets (Goerli).
 The contract has features that allows users to:
 1. Fund the contract with ether
 2. Withdraw ether from the contract
