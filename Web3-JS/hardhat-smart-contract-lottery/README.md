@@ -1,8 +1,8 @@
 # Smart Contract Lottery (Raffle)
 
 1. Enter the lottery (paying some amount)
-2. Pick a random winner (verifiably random)
-3. Winner to be selected every X minutes -> completely automated
+2. Pick a random winner (verifiably random using Chainlink VRF)
+3. Winner to be selected every X minutes (completely automated using Chainlink Keepers)
 
 Use Chainlink Oracles -> Randomness (Chainlink VRF), Automated Execution (Chainlink Keepers)
 
