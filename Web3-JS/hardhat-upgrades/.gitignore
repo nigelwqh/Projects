@@ -1,0 +1,8 @@
+.env
+node_modules
+
+# hardhat files
+artifacts
+cache
+deployments
+.DS_Store
