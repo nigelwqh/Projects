@@ -3,5 +3,4 @@ This repository consists of all the different personal/tutorial projects that i 
 Tech stack used in the projects include the following:
 1. Solidity
 2. Python
-3. Javascript/NodeJs
-4. HTML/CSS
+3. HTMl/CSS/Javascript/NodeJs/React
