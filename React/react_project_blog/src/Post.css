@@ -1,0 +1,18 @@
+main {
+    margin-top: 280px;
+}
+
+.post a {
+    color: black;
+}
+
+.post a:hover {
+    color: rgb(0, 0, 0, 0.7);
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem 1rem;
+}

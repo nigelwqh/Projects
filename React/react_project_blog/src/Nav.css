@@ -1,0 +1,53 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin: 90px 0 0 0;
+    padding: 20px 0 0 0;
+    width: 100%;
+    background-color: white;
+}
+
+.searchForm {
+    padding: 0.5rem 0.5rem;
+    width: 80%;
+}
+
+.searchForm input {
+    width: 100%;
+    min-height: 48px;
+    padding: 0.25rem;
+    font-size: 1rem;
+}
+
+.navList {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    list-style: none;
+}
+
+.navList li {
+    padding: 1rem;
+}
+
+.navList a:hover {
+    color: rgb(0, 0, 0, 0.7);
+}
+
+.navList a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.icons {
+    font-size: 2.5rem;
+}

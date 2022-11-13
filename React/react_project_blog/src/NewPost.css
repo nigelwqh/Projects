@@ -1,0 +1,28 @@
+.newPostForm {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 100vh;
+    padding: 2rem;
+}
+
+#postTitle {
+    margin-bottom: 1rem;
+}
+
+#postBody {
+    height: 6rem;
+}
+
+.buttonContainer {
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+
+button {
+    margin-top: 1rem;
+    width: 100%;
+    min-width: 188px;
+    min-height: 24px;
+}

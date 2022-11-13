@@ -1,0 +1,12 @@
+.Header {
+    border-bottom: 1px solid grey;
+    padding: 1rem;
+    color: red;
+    font-size: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: white;
+}
